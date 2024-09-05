@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Ball"))
-        {                                                    //NOTA IMPORTANTE: acordarse de marcar en el componente "Sphere collider" del objeto(bala), como IsTrigger, para que pueda funcionar
+        {                                                    //NOTA IMPORTANTE: acordarse de marcar en el componente "Sphere collider" del objeto(bala), como IsTrigger, para que pueda funcionar.
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
