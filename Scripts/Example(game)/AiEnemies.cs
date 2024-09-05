@@ -8,7 +8,8 @@ public class AiEnemies : MonoBehaviour
     //Necesitamos:
         // 1) Crear el suelo azul, que nos permite darle a los objetos una guai de por donde caminar
         // 2) Marcar los objetos de la escena como estaticos (que no se moveran durante la ejecucion del juego)
-{
+{       // 3)
+
     // Start is called before the first frame update
     void Start()
     {
